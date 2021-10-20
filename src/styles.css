@@ -1,0 +1,30 @@
+.App {
+    font-family: 'Otomanopee One';
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.animes-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style-type: none;
+    grid-gap: 1.5rem;
+}
+
+.animes-list img{
+    max-width: 100%;
+}
+
+body{
+    background: #FFA500;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+
+.trailler-notfound{
+    cursor: not-allowed;
+}
+
