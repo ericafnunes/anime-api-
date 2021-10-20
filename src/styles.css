@@ -24,7 +24,22 @@ span{
     flex-direction: column;
 }
 
+
+
 .trailler-notfound{
     cursor: not-allowed;
 }
 
+input{
+    all: unset;
+    box-sizing: border-box;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    /* padding-left: 40px;   */
+}
+
+li{
+    margin-top: 30px;
+    font-style: italic;
+}

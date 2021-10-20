@@ -9,7 +9,7 @@ const api = 'https://kitsu.io/api/edge';
 export default function App() {
   const [info, setInfo] = useState({});
   const [text, setText] = useState('');
-  console.log(text);
+ 
 
   useEffect(() => {
     if (text) {
